@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.kredditt.io/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Responsive Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>Kredditt | Empowering Financial Futures</title>
+
+    <!-- SEO Description -->
+    <meta
+      name="description"
+      content="Kredditt helps individuals and businesses take control of their financial journey through smart investment tools, transparent analytics, and personalized insights."
+    />
+
+    <!-- Open Graph / Social Preview -->
+    <meta property="og:site_name" content="Kredditt" />
+    <meta property="og:title" content="Kredditt | Empowering Financial Futures" />
+    <meta
+      property="og:description"
+      content="Kredditt helps individuals and businesses take control of their financial journey through smart investment tools, transparent analytics, and personalized insights."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kredditt.io" />
+    <meta property="og:image" content="https://www.kredditt.io/og-image.png" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kredditt | Empowering Financial Futures" />
+    <meta
+      name="twitter:description"
+      content="Smart financial tools and investment insights designed to help you grow wealth with confidence."
+    />
+    <meta name="twitter:image" content="https://www.kredditt.io/og-image.png" />
+
+    <!-- JSON-LD Schema (for Google) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kredditt",
+        "url": "https://www.kredditt.io",
+        "logo": "https://www.kredditt.io/vite.svg",
+        "sameAs": [
+          "https://twitter.com/kredditt",
+          "https://linkedin.com/company/kredditt"
+        ]
+      }
+    </script>
+
+    <!-- Tailwind and Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Rethink Sans"', "ui-sans-serif", "system-ui"]
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+
+  <body class="font-sans bg-white text-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
