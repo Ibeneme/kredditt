@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import type { Variants } from "framer-motion";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useLocation, Link, useNavigate } from "react-router-dom";
+import use from "../../../public/vite.png";
 
 const navItems = [
   { name: "HOME", href: "/" },
@@ -47,7 +48,7 @@ const Navbar: React.FC = () => {
             to="/"
             className="text-2xl font-bold text-indigo-600 tracking-tight"
           >
-            Kredditt<span className="text-gray-900 font-normal">.io</span>
+          <img src={use} style={{width: 48, height: 48}}/>
           </Link>
 
           {/* Desktop Menu */}
